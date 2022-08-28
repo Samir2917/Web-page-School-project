@@ -1,0 +1,55 @@
+.container {
+    background-color: snow;
+    align-items: center;
+}
+.pbox {
+    height: 600px;
+    width: 650px;
+    background-image: url("https://docs.google.com/uc?export=download&id=1z7v7L46duWr022TC7xw8XCG0vXK7leOG");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    left: 140px;
+}
+.navbar {
+    background-color: white;
+    height: 10%;
+    display: flex;
+    align-items:baseline;
+    position: absolute;
+    top: 625px;
+    left: 100px;
+    margin-left: auto;
+
+ 
+}
+.navbar ul li {
+    list-style: none;
+    display: inline-table;
+    margin: 0 20px;
+   
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: midnightblue;
+    font-size: 18px;
+}
+.navbar ul li a:hover{
+    border-bottom: 1px solid black;
+    color: black;
+    font-size: 22px;
+}
+.navbar ul li ul li {
+    display: inline-flex;
+}
+#bgvideo {
+    position: absolute;
+    top: 720px;
+    width: 100%;
+    height: auto;
+}
+.content {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

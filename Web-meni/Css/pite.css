@@ -1,0 +1,256 @@
+.container {
+    background-color: snow;
+    align-items: center;
+}
+.cont {
+    background-color: cornflowerblue;
+    height: 220px;
+    width: 100%;
+}
+.cont h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 44px;
+    font-weight: bolder;
+    position: absolute;
+    left: 250px;
+}
+.cont h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    position: absolute;
+    top: 90px;
+    left: 230px;
+}
+.navbar {
+    background-color: white;
+    height: 10%;
+    display: flex;
+    align-items:baseline;
+    position: absolute;
+    top: 250px;
+    left: 100px;
+    margin-left: auto; 
+}
+.navbar ul li {
+    list-style: none;
+    display: inline-table;
+    margin: 0 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: midnightblue;
+    font-size: 18px;
+}
+.navbar ul li a:hover{
+    border-bottom: 1px solid black;
+    color: black;
+    font-size: 22px;
+}
+.navbar ul li ul li {
+    display: inline-flex;
+}
+.card1 {
+    height: 400px;
+    width: 400px;
+    background-color:cornflowerblue;
+    display:inline;
+    align-items: center;
+    border-radius: 8px;
+    border: 3px;
+    border-color: black;
+    position: absolute;
+    left: 50px;
+    top: 400px;
+}
+.card1 :hover{
+    zoom: 120%;
+}
+.card1 .pbox {
+    height: 300px;
+    width: 400px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    background-image: url(../MeniImages/pite/mala\ pita.jpg)
+}
+.card1 h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.card1 p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+.card2 {
+    height: 400px;
+    width: 400px;
+    background-color:cornflowerblue;
+    display:inline;
+    align-items: center;
+    border-radius: 8px;
+    border: 3px;
+    border-color: black;
+    position: absolute;
+    left: 485px;
+    top: 400px;
+}
+.card2 :hover{
+    zoom: 120%;
+}
+.card2 .pbox {
+    height: 300px;
+    width: 400px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    background-image: url(../MeniImages/pite/pita\ v.jpg)
+}
+.card2 h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.card2 p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+.card3 {
+    height: 400px;
+    width: 400px;
+    background-color:cornflowerblue;
+    display:inline;
+    align-items: center;
+    border-radius: 8px;
+    border: 3px;
+    border-color: black;
+    position: absolute;
+    left: 920px;
+    top: 400px;
+}
+.card3 :hover{
+    zoom: 120%;
+}
+.card3 .pbox {
+    height: 300px;
+    width: 400px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    background-image: url(../MeniImages/pite/pita\ kg.jpg)
+}
+.card3 h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.card3 p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+.card4 {
+    height: 400px;
+    width: 400px;
+    background-color:cornflowerblue;
+    display:inline;
+    align-items: center;
+    border-radius: 8px;
+    border: 3px;
+    border-color: black;
+    position: absolute;
+    left: 50px;
+    top: 830px;
+}
+.card4 :hover{
+    zoom: 120%;
+}
+.card4 .pbox {
+    height: 300px;
+    width: 400px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    background-image: url(../MeniImages/pite/pita\ tepsija.jpg)
+}
+.card4 h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.card4 p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+.card5 {
+    height: 400px;
+    width: 400px;
+    background-color:cornflowerblue;
+    display:inline;
+    align-items: center;
+    border-radius: 8px;
+    border: 3px;
+    border-color: black;
+    position: absolute;
+    left: 485px;
+    top: 830px;
+}
+.card5 :hover{
+    zoom: 120%;
+}
+.card5 .pbox {
+    height: 300px;
+    width: 400px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    background-image: url(../MeniImages/pite/maslanjak.jpg)
+}
+.card5 h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.card5 p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+.card6 {
+    height: 400px;
+    width: 400px;
+    background-color:cornflowerblue;
+    display:inline;
+    align-items: center;
+    border-radius: 8px;
+    border: 3px;
+    border-color: black;
+    position: absolute;
+    left: 920px;
+    top: 830px;
+}
+.card6 :hover{
+    zoom: 120%;
+}
+.card6 .pbox {
+    height: 300px;
+    width: 400px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    background-image: url(../MeniImages/pite/maslanica.jpg)
+}
+.card6 h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.card6 p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
